@@ -1,5 +1,4 @@
-# Tugas Praktikum { Pertemuan ke 12 } <img src=https://logos-download.com/wp-content/uploads/2016/05/MySQL_logo_logotype.png width="130px" >
-
+# Tugas Praktikum { Pertemuan ke 12 } 
 
 |**Nama**|**NIM**|**Kelas**|**Matkul**|
 |----|---|-----|------|
