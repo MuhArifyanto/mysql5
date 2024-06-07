@@ -42,7 +42,9 @@ INSERT INTO mahasiswa VALUES
 SELECT*FROM Mahasiswa;
 `````
 Output :
+
 ![k6](https://github.com/MuhArifyanto/mysql5/assets/147913440/d81f6c21-1349-4070-a126-c76b9dfd5599)
+
 
 `````
 insert into dosen values
@@ -70,6 +72,7 @@ INSERT INTO Matakuliah VALUES
 SELECT * FROM Matakuliah;
 `````
 Output :
+
 ![k8](https://github.com/MuhArifyanto/mysql5/assets/147913440/77112223-29c3-4ebe-a6a8-5f77d2b70308)
 
 
@@ -86,6 +89,7 @@ INSERT INTO JadwalMengajar VALUES
 SELECT*FROM JadwalMengajar;
 `````
 Output :
+
 ![k9](https://github.com/MuhArifyanto/mysql5/assets/147913440/cef291be-7a7e-4508-b6d4-03433d548eec)
 
 
@@ -110,6 +114,7 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa INNER JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output :
+
 ![k11](https://github.com/MuhArifyanto/mysql5/assets/147913440/268685e6-d9bf-4a0c-9d84-f57b9c606638)
 
 
@@ -119,6 +124,7 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa LEFT JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output:
+
 ![k12](https://github.com/MuhArifyanto/mysql5/assets/147913440/d2c829ab-eae0-4e69-97ed-d804dd83cd00)
 
 
